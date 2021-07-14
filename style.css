@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  #eeeaea;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+   
+
+}
+.header-title{
+    font-size: 64px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.transition{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-right: 100px;
+    height: 50px;
+    width: 50px;
+    transition-property: width;
+    transition-duration: 2s ;
+  
+}
+.transition:hover{
+width: 150px;
+}
+.header-container .banner img{
+    width: 487px;
+    height: 320px;
+    transform: rotate(360deg);
+}
+.header a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-left: 40px;
+  
+}
+.header a:hover{
+  background-color: seagreen;
+}
+.link{
+    background-color:  #E02C6D;
+    padding: 10px 24px;
+    width: 168px;
+}
+
+/* -------------------------player section---------------- */
+
+.player-container{
+    display: flex;
+    background-color:  #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15); 
+    border: 1px solid  #FFFFFF ;
+
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 180px;
+  
+      
+}
+.player-img{
+    border: 1px solid  #FFFFFF;
+    padding-left: 40px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px  #FFFFFF;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.player-details{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+.player-img img{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 300px;
+height: 256px;
+border-radius: 10px;
+}
+.player-name{
+    font-size: 28px;
+}
+.player-info{
+    font-size: 16px;
+    line-height: 26px;
+    width: 300px;
+    text-align: justify;
+}
+
+/* -------------------footer start--------------- */
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+}
+
+.footer-logo img{
+    height: 110px;
+    width: 484px;
+    align-items: center;
+}
+.footer-icon{
+    margin-top: 70px;
+    padding-left: 120px;
+}
+.footer-icon a {
+    text-decoration: none;
+    background: #969BAB;
+    color: #535c79;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer-text{
+    margin-top: 40px;
+    padding-bottom: 140px;
+    margin-left: 120px;
+}
+.fa-instagram{
+    width: 12px;
+    height: 12px;
+}
+/* --------------------media quary----------- */
